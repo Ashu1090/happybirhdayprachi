@@ -34,6 +34,8 @@ h1{
 .container{
     background-attachment: fixed;
     background-size :cover;
+    background-repeat: no-repeat;
+   
     
     background-image: url(images\ \(1\).jpg);
     width:fit-content;
@@ -79,7 +81,9 @@ h2{color: red;}
 
 @media screen and (max-width:600px)
 {
-   .container { background-image: url(kitu.jpg); flex-basis: 25%;}
+   .container { background-image: url(kitu.jpg); flex-basis: 25%; background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size :cover;}
 
    
     
